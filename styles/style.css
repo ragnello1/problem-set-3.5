@@ -23,12 +23,23 @@ a.header {
   color: black;
 }
 
+a.header:link {
+  text-decoration: none;
+}
+
 a.header:visited {
   color: black;
 }
 
 h2.button:hover {
   background-color: #F1E2CA;
+}
+
+h2.button {
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #EABA6B;
+  background-color: #cea45f; 
 }
 
 h3 {
@@ -53,7 +64,7 @@ img {
     margin-right: auto;
     }
 
-td:hover {
+td.list:hover {
   background-color: #8BD8F4;
     }
 
