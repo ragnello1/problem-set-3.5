@@ -14,8 +14,8 @@ h2 {
 }
 
 h2.round span{
-    border: 2px solid #EABA6B;
-    border-radius: 20px;
+    border: 4px solid #EABA6B;
+    border-radius: 5px;
     background-color: #F1E2CA;
 }
 
@@ -38,11 +38,12 @@ h2.button:hover {
 h2.button {
   border-style: solid;
   border-radius: 25px;
-  border-color: #EABA6B;
-  background-color: #cea45f; 
+  border-color: #cea45f;
+  background-color: #EABA6B;
 }
 
 h3 {
+  color: #0f1f3d;
   font-family: Helvetica;
 }
 
@@ -62,15 +63,39 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
 td.list:hover {
   background-color: #8BD8F4;
-    }
+}
 
 a:hover {
   color: crimson;
 }
 a:visited {
   color: purple;
+}
+
+#grad {
+  background-color: #F5EE9E;
+}
+
+#grad1 {
+  background-color: #EFC69B;
+}
+
+#grad2 {
+  background-color: #F49E4C;
+}
+
+div * {
+  color: black;
+}
+
+td a {
+  color: blue;
+}
+
+ol li {
+  color: #352A18;
 }
