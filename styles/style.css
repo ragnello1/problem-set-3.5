@@ -44,19 +44,10 @@ h2.button {
 
 h3 {
   color: #0f1f3d;
-  font-family: Helvetica;
 }
 
-p {
-  font-family: Helvetica;
-}
-
-a {
-  font-family: Helvetica;
-}
-
-li {
-  font-family: Helvetica;
+* {
+  font-family: helvetica;
 }
 
 img {
@@ -67,6 +58,19 @@ img {
 
 td.list:hover {
   background-color: #8BD8F4;
+}
+
+a[target]{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+a[href] {
+  font-style: oblique;
+}
+
+h2[align] {
+  text-decoration: none;
 }
 
 a:hover {
@@ -98,4 +102,31 @@ td a {
 
 ol li {
   color: #352A18;
+}
+
+tr h3{
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.rocks {
+  width: 400px; height: 300px;
+  border-radius: 25px;
+}
+
+#beatles {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+#football {
+  border-style: inset;
+  border-width: 10px;
+  border-color: grey;
+}
+
+#wrestle {
+  border-style: inset;
+  border-width: 10px;
+  border-color: grey;
 }
