@@ -113,6 +113,16 @@ tr h3{
   border-radius: 25px;
 }
 
+.types {
+  width: 500px;
+  height: 350px;
+}
+
+#types {
+  width: 500px;
+  height: 350px;
+}
+
 #beatles {
   border-style: solid;
   border-width: 5px;
